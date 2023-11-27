@@ -1,0 +1,82 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Título de Página</title>
+</head>
+<body>
+
+    <!-- Título de la página -->
+    <h1 id="title">Tu Título de Página</h1>
+
+    <!-- Descripción de la página -->
+    <p id="description">Esta es una breve explicación de la página. Puedes agregar información adicional aquí.</p>
+
+    <!-- Formulario de encuesta -->
+    <form id="survey-form">
+        <!-- Etiqueta y campo para el nombre -->
+        <label for="name" id="name-label">Nombre:</label>
+        <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
+
+        <!-- Etiqueta y campo para el correo electrónico con validación automática -->
+        <label for="email" id="email-label">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="correo@example.com" required>
+
+        <!-- Etiqueta y campo para ingresar un número con validación de rango -->
+        <label for="number" id="number-label">Número (entre 1 y 100):</label>
+        <input type="number" id="number" name="number" min="1" max="100" placeholder="Ingresa un número" required>
+
+        <!-- Elemento desplegable (select) -->
+        <label for="dropdown" id="dropdown-label">Selecciona una opción:</label>
+        <select id="dropdown" name="dropdown" required>
+            <option value="opcion1">Opción 1</option>
+            <option value="opcion2">Opción 2</option>
+            <!-- Puedes agregar más opciones según sea necesario -->
+        </select>
+
+        <!-- Grupo de botones de radio -->
+        <label id="radio-group-label">Selecciona una opción de radio:</label>
+        <input type="radio" id="radio1" name="radio-group" value="opcion1" required>
+        <label for="radio1">Opción 1</label>
+
+        <input type="radio" id="radio2" name="radio-group" value="opcion2" required>
+        <label for="radio2">Opción 2</label>
+        <!-- Puedes agregar más botones de radio según sea necesario -->
+
+        <!-- Grupo de casillas de verificación -->
+        <label id="checkbox-group-label">Selecciona varias opciones:</label>
+        <input type="checkbox" id="checkbox1" name="checkbox-group" value="opcion1">
+        <label for="checkbox1">Opción 1</label>
+
+        <input type="checkbox" id="checkbox2" name="checkbox-group" value="opcion2">
+        <label for="checkbox2">Opción 2</label>
+        <!-- Puedes agregar más casillas de verificación según sea necesario -->
+
+        <!-- Textarea para comentarios adicionales -->
+        <label for="comments">Comentarios adicionales:</label>
+        <textarea id="comments" name="comments" placeholder="Ingresa tus comentarios"></textarea>
+
+        <!-- Botón de envío -->
+        <button type="submit" id="submit">Enviar</button>
+    </form>
+
+    <!-- El resto de tu contenido va aquí -->
+
+</body>
+</html>
+
+
+
+
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
